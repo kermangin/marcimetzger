@@ -1074,7 +1074,11 @@ input,select,textarea{
 }
 
 /* Warm bronze accents distinguish actions from the charcoal content panels. */
-.button, .text-link, .nav-contact { font-weight: 600; }
+.button, .text-link, .header nav .nav-contact {
+  font: normal 600 14px/1.5 var(--sans);
+  letter-spacing: .3px;
+  text-transform: none;
+}
 .button.dark, .nav-contact { background: #73532d; color: #fff; border-color: #73532d; }
 .button.light { background: #eadbc0; color: #252b26; }
 .button:hover, .nav-contact:hover { background: #564021; color: #fff; border-color: #564021; text-decoration: none; }
