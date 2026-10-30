@@ -94,6 +94,10 @@ small{
   gap:30px;
   font-size:12px}
 .nav-contact{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
   border:1px solid var(--ink);
   padding:13px 20px}
 .nav-contact span{
@@ -715,11 +719,14 @@ dialog>img{
   width:190px}
 .menu-toggle{
   display:flex;
-  gap:15px;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  flex-shrink:0;
   align-items:center;
   background:transparent;
   border:1px solid #c7cabe;
-  padding:9px 13px;
+  padding:10px;
   font-size:12px;
   min-height:44px}
 .header nav{
