@@ -194,7 +194,7 @@ small{
   position:absolute;
   left:0;
   bottom:0;
-  width:calc(100% - 1px);
+  width:70%;
   height:90%;
   border:1px solid #b8b6a9;
   z-index:-1}
