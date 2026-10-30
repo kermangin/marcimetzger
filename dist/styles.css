@@ -188,7 +188,7 @@ small{
   position:absolute;
   left:0;
   bottom:0;
-  width:80%;
+  width:calc(100% - 1px);
   height:90%;
   border:1px solid #b8b6a9;
   z-index:-1}
@@ -198,6 +198,8 @@ small{
   object-position:center 25%}
 .portrait-label{
   margin-top:16px;
+  padding-right:16px;
+  text-wrap:balance;
   color:var(--muted);
   font-family:var(--serif);
   font-size:20px;
