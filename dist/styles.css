@@ -686,6 +686,8 @@ dialog>img{
   margin:0}
 
 @media(max-width:1100px){
+  .portrait:before{
+  width:calc(100% - 1px)}
   .header nav{
   gap:18px}
 .brand{
@@ -771,7 +773,7 @@ dialog>img{
 .portrait-label{
   font-size:18px}
 .portrait-label{
-  padding-right:0;
+  padding-right:12px;
   margin-top:14px;
   line-height:1.5}
 .about h2{
