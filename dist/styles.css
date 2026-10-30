@@ -761,6 +761,15 @@ dialog>img{
   height:420px}
 .portrait-label{
   font-size:18px}
+.portrait:before{
+  display:none}
+.portrait{
+  padding-left:0;
+  padding-bottom:0}
+.portrait-label{
+  padding-right:0;
+  margin-top:14px;
+  line-height:1.5}
 .about h2{
   font-size:40px}
 .serif-intro{
